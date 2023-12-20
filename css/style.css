@@ -29,11 +29,15 @@ p{font-size: 16px;}
 
 
 header{background-color: rgb(0, 0, 0);padding: 10px 0; display:flex; justify-content: center;}
-
-.head .flex .navForMobile  { width: 1200px; display:flex; align-items: center;justify-content: center; flex-wrap: wrap;  }
+header .head{
+    display: flex;
+    align-items: center;
+}
+.head .navForMobile  { width: 1200px; display:flex; align-items: center;justify-content: center; flex-wrap: wrap;  }
 
 .logo{ flex-basis: 20%; text-align: center;}
 .logo img{width: 120px;}
+
 nav { flex-basis:80%;}
 
 nav ul{list-style: none;display: flex; justify-content: flex-end;}
@@ -114,7 +118,7 @@ font-weight: 800; font-size: 40px;
 
 .container1 p{text-align: center;
    line-height: 30px;
-    
+   padding: 0 100px ; 
     }
     
 
@@ -279,10 +283,11 @@ nav ul{
 .menu ul li{
     padding: 0;
 }
-.navForMobile{
+header .head {
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
-
 nav ul li a{
    font-size: 16px; font-weight: 500; padding: 6px 12px; border-radius: 4px;
 }
@@ -296,8 +301,8 @@ nav ul li a{
    
         .herobannerContent h1{
             color: #f6e231;
-             font-weight: 600;
-             font-size: 40px;
+             font-weight: 800;
+             font-size: 30px;
             }
     
         .herobannerContent p{
@@ -319,9 +324,9 @@ nav ul li a{
         }
         
         .container1 p{
-           line-height: 20px;
-            
-            }
+            line-height: auto;
+            padding: 0 20px ; 
+             }
      .container2 {
                 flex-direction: column-reverse;
             }
