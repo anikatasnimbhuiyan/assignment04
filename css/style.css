@@ -289,7 +289,7 @@ header .head {
     flex-direction: column;
 }
 nav ul li a{
-   font-size: 16px; font-weight: 500; padding: 6px 12px; border-radius: 4px;
+   font-size: 14px; font-weight: 500; padding: 6px 10px; border-radius: 4px;
 }
 
     .herobannerSection {
@@ -370,8 +370,9 @@ footer section ul li{
 }
 .flex li a{
 text-decoration: none;
-padding: 8px 12px;
+padding: 8px 10px;
 border-radius: 4px;
+font-size: 14px;
 }
   
     }
